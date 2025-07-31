@@ -22,8 +22,8 @@ struct CategoryView: View {
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("Select Your Quote Category")) {
-                    ForEach(categories.sorted(by: { $0.value < $1.value }), id: \.key) { key, name in
+                ForEach(categories.sorted(by: { $0.value < $1.value }), id: \.key) { key, name in
+                    NavigationLink(destination: QuoteListView(categoryKey: key, categoryName: name)) {
                         HStack {
                             Text(name)
                             Spacer()
@@ -32,20 +32,9 @@ struct CategoryView: View {
                                     .foregroundColor(.blue)
                             }
                         }
-                        .contentShape(Rectangle()) // Make whole row tappable
-                        .onTapGesture {
-                            selectedCategory = key
-                            UserDefaults(suiteName: "group.com.DailyQuotes.shared")?.set(key, forKey: "selectedCategory")
-                            print("Saved category to shared defaults: \(key)")
-
-                            DispatchQueue.main.async {
-                                    WidgetCenter.shared.reloadAllTimelines()
-                                }
-
-                            selectedTab = 1
-                        }
                     }
                 }
+                
             }
             .listStyle(InsetGroupedListStyle())
             .navigationTitle("Category")
