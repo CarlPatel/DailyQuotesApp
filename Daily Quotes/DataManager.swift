@@ -50,6 +50,10 @@ class DataManager: ObservableObject {
             favoriteQuoteIDs.append(quote.id)
         }
     }
+    
+    func getQuote(by id: String) -> Quote? {
+        return allQuotes.first(where: { $0.id == id })
+    }
 
     init() {
         loadQuotes()
