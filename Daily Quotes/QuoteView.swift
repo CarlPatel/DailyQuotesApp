@@ -29,7 +29,7 @@ struct QuoteView: View {
                 .frame(maxWidth: .infinity)
                 .lineLimit(nil)
                 .minimumScaleFactor(0.5)
-            .frame(maxWidth: 600)
+                .frame(maxWidth: 600)
 
             Text("- \(quote.author)")
                 .font(.title3)

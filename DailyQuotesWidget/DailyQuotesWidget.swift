@@ -10,7 +10,7 @@ import SwiftUI
 
 struct QuoteProvider: TimelineProvider {
     func placeholder(in context: Context) -> QuoteEntry {
-        QuoteEntry(date: Date(), quote: Quote(id: "placeholder", text: "Loading...", author: "", category: "simpsons"))
+        QuoteEntry(date: Date(), quote: Quote(id: "placeholder", text: "Loading...", author: "", category: ""))
     }
 
     func getSnapshot(in context: Context, completion: @escaping (QuoteEntry) -> Void) {
@@ -56,17 +56,66 @@ struct QuoteEntry: TimelineEntry {
 
 struct DailyQuotesWidgetEntryView: View {
     var entry: QuoteProvider.Entry
+    @Environment(\.widgetFamily) var family
 
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("“\(entry.quote.text)”")
-                .font(.headline)
-                .lineLimit(nil)
-            Text("- \(entry.quote.author)")
-                .font(.caption)
-                .foregroundColor(.gray)
+        let quoteFont: Font
+        let authorFont: Font
+        let verticalSpacing: CGFloat
+        let paddingAmount: CGFloat
+        let quoteAlignment: Alignment
+        let quoteTextAlignment: TextAlignment
+
+        switch family {
+        case .systemSmall:
+            quoteFont = .system(size: 14, weight: .semibold)
+            authorFont = .system(size: 10)
+            verticalSpacing = 4
+            paddingAmount = 4
+            quoteAlignment = .leading
+            quoteTextAlignment = .leading
+
+        case .systemMedium:
+            quoteFont = .system(size: 18, weight: .semibold)
+            authorFont = .system(size: 12)
+            verticalSpacing = 8
+            paddingAmount = 8
+            quoteAlignment = .leading
+            quoteTextAlignment = .leading
+
+        case .systemLarge:
+            quoteFont = .system(size: 24, weight: .semibold)
+            authorFont = .system(size: 14)
+            verticalSpacing = 12
+            paddingAmount = 12
+            quoteAlignment = .center
+            quoteTextAlignment = .center
+
+        default:
+            quoteFont = .headline
+            authorFont = .caption
+            verticalSpacing = 8
+            paddingAmount = 8
+            quoteAlignment = .leading
+            quoteTextAlignment = .leading
         }
-        .padding()
+
+        return VStack(alignment: .leading, spacing: verticalSpacing) {
+            Text("“\(entry.quote.text)”")
+                .font(quoteFont)
+                .lineLimit(nil)
+                .truncationMode(.tail)
+                .minimumScaleFactor(0.5)
+                .frame(maxWidth: .infinity, alignment: quoteAlignment)
+                .multilineTextAlignment(quoteTextAlignment)
+
+            Text("- \(entry.quote.author)")
+                .font(authorFont)
+                .foregroundColor(.secondary)
+                .frame(maxWidth: .infinity, alignment: .trailing)
+                .minimumScaleFactor(0.5)
+        }
+        .padding(paddingAmount)
     }
 }
 
@@ -79,6 +128,6 @@ struct DailyQuotesWidget: Widget {
         }
         .configurationDisplayName("Daily Quote")
         .description("Shows the quote of the day.")
-        .supportedFamilies([.systemSmall, .systemMedium])
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
     }
 }
