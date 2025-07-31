@@ -116,6 +116,7 @@ struct DailyQuotesWidgetEntryView: View {
                 .minimumScaleFactor(0.5)
         }
         .padding(paddingAmount)
+        .widgetURL(URL(string: "dailyquotes://today"))
     }
 }
 

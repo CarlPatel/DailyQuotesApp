@@ -30,5 +30,10 @@ struct ContentView: View {
                 }
                 .tag(2)
         }
+        .onOpenURL { url in
+            if url.host == "today" {
+                selectedTab = 1
+            }
+        }
     }
 }
