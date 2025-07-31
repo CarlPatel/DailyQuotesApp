@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct Daily_QuotesApp: App {
+struct DailyQuotesApp: App {
+    @StateObject private var dataManager = DataManager()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(dataManager)
         }
     }
 }

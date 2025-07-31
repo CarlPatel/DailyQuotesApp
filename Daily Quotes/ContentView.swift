@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+    @State private var selectedTab = 1
 
-#Preview {
-    ContentView()
+    var body: some View {
+        TabView(selection: $selectedTab) {
+            CategoryView(selectedTab: $selectedTab)
+                .tabItem {
+                    Label("Category", systemImage: "square.grid.2x2")
+                }
+                .tag(0)
+
+            TodayView()
+                .tabItem {
+                    Label("Today", systemImage: "quote.bubble")
+                }
+                .tag(1)
+
+            FavoritesView()
+                .tabItem {
+                    Label("Favorites", systemImage: "heart.fill")
+                }
+                .tag(2)
+        }
+    }
 }

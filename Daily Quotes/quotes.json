@@ -1,0 +1,26 @@
+[
+  {
+    "id": "simpsons-1",
+    "text": "Just because I don’t care doesn’t mean I don’t understand.",
+    "author": "Homer Simpson",
+    "category": "simpsons"
+  },
+  {
+    "id": "one_tree_hill-2",
+    "text": "At this moment, there are 6,470,818,671 people in the world... and sometimes all you need is one.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "gilmore_girls-3",
+    "text": "I live in two worlds, one is a world of books.",
+    "author": "Rory Gilmore",
+    "category": "gilmore_girls"
+  },
+  {
+    "id": "simpsons-4",
+    "text": "Kids, you tried your best and you failed miserably. The lesson is, never try.",
+    "author": "Homer Simpson",
+    "category": "simpsons"
+  }
+]
