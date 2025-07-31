@@ -6,14 +6,77 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C3802E782E3AF09F00C3C358 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3802E772E3AF09F00C3C358 /* WidgetKit.framework */; };
+		C3802E7A2E3AF09F00C3C358 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3802E792E3AF09F00C3C358 /* SwiftUI.framework */; };
+		C3802E852E3AF0A000C3C358 /* DailyQuotesWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C3802E752E3AF09F00C3C358 /* DailyQuotesWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3802E832E3AF0A000C3C358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3802E162E3AD39F00C3C358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3802E742E3AF09F00C3C358;
+			remoteInfo = DailyQuotesWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3802E862E3AF0A000C3C358 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C3802E852E3AF0A000C3C358 /* DailyQuotesWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		C3802E1E2E3AD39F00C3C358 /* Daily Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3802E752E3AF09F00C3C358 /* DailyQuotesWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DailyQuotesWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3802E772E3AF09F00C3C358 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C3802E792E3AF09F00C3C358 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C3802E8B2E3AF1D400C3C358 /* DailyQuotesWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailyQuotesWidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C3802E892E3AF0A000C3C358 /* Exceptions for "DailyQuotesWidget" folder in "DailyQuotesWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C3802E742E3AF09F00C3C358 /* DailyQuotesWidgetExtension */;
+		};
+		C3802E8E2E3AF36C00C3C358 /* Exceptions for "Daily Quotes" folder in "DailyQuotesWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Quote.swift,
+				quotes.json,
+			);
+			target = C3802E742E3AF09F00C3C358 /* DailyQuotesWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C3802E202E3AD39F00C3C358 /* Daily Quotes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C3802E8E2E3AF36C00C3C358 /* Exceptions for "Daily Quotes" folder in "DailyQuotesWidgetExtension" target */,
+			);
 			path = "Daily Quotes";
+			sourceTree = "<group>";
+		};
+		C3802E7B2E3AF09F00C3C358 /* DailyQuotesWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C3802E892E3AF0A000C3C358 /* Exceptions for "DailyQuotesWidget" folder in "DailyQuotesWidgetExtension" target */,
+			);
+			path = DailyQuotesWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,13 +89,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C3802E722E3AF09F00C3C358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3802E7A2E3AF09F00C3C358 /* SwiftUI.framework in Frameworks */,
+				C3802E782E3AF09F00C3C358 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C3802E152E3AD39F00C3C358 = {
 			isa = PBXGroup;
 			children = (
+				C3802E8B2E3AF1D400C3C358 /* DailyQuotesWidgetExtension.entitlements */,
 				C3802E202E3AD39F00C3C358 /* Daily Quotes */,
+				C3802E7B2E3AF09F00C3C358 /* DailyQuotesWidget */,
+				C3802E762E3AF09F00C3C358 /* Frameworks */,
 				C3802E1F2E3AD39F00C3C358 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,8 +116,18 @@
 			isa = PBXGroup;
 			children = (
 				C3802E1E2E3AD39F00C3C358 /* Daily Quotes.app */,
+				C3802E752E3AF09F00C3C358 /* DailyQuotesWidgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C3802E762E3AF09F00C3C358 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3802E772E3AF09F00C3C358 /* WidgetKit.framework */,
+				C3802E792E3AF09F00C3C358 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,10 +140,12 @@
 				C3802E1A2E3AD39F00C3C358 /* Sources */,
 				C3802E1B2E3AD39F00C3C358 /* Frameworks */,
 				C3802E1C2E3AD39F00C3C358 /* Resources */,
+				C3802E862E3AF0A000C3C358 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C3802E842E3AF0A000C3C358 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				C3802E202E3AD39F00C3C358 /* Daily Quotes */,
@@ -69,6 +156,28 @@
 			productName = "Daily Quotes";
 			productReference = C3802E1E2E3AD39F00C3C358 /* Daily Quotes.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C3802E742E3AF09F00C3C358 /* DailyQuotesWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3802E8A2E3AF0A000C3C358 /* Build configuration list for PBXNativeTarget "DailyQuotesWidgetExtension" */;
+			buildPhases = (
+				C3802E712E3AF09F00C3C358 /* Sources */,
+				C3802E722E3AF09F00C3C358 /* Frameworks */,
+				C3802E732E3AF09F00C3C358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C3802E7B2E3AF09F00C3C358 /* DailyQuotesWidget */,
+			);
+			name = DailyQuotesWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = DailyQuotesWidgetExtension;
+			productReference = C3802E752E3AF09F00C3C358 /* DailyQuotesWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -81,6 +190,9 @@
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					C3802E1D2E3AD39F00C3C358 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C3802E742E3AF09F00C3C358 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
@@ -100,12 +212,20 @@
 			projectRoot = "";
 			targets = (
 				C3802E1D2E3AD39F00C3C358 /* Daily Quotes */,
+				C3802E742E3AF09F00C3C358 /* DailyQuotesWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C3802E1C2E3AD39F00C3C358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3802E732E3AF09F00C3C358 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +242,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C3802E712E3AF09F00C3C358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3802E842E3AF0A000C3C358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3802E742E3AF09F00C3C358 /* DailyQuotesWidgetExtension */;
+			targetProxy = C3802E832E3AF0A000C3C358 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C3802E272E3AD3A100C3C358 /* Debug */ = {
@@ -251,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Daily Quotes/Daily Quotes.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T5P9SR2YJ7;
@@ -279,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Daily Quotes/Daily Quotes.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T5P9SR2YJ7;
@@ -302,6 +439,62 @@
 			};
 			name = Release;
 		};
+		C3802E872E3AF0A000C3C358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DailyQuotesWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5P9SR2YJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyQuotesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyQuotesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CarlPatel.Daily-Quotes.DailyQuotesWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3802E882E3AF0A000C3C358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DailyQuotesWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5P9SR2YJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyQuotesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyQuotesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CarlPatel.Daily-Quotes.DailyQuotesWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +512,15 @@
 			buildConfigurations = (
 				C3802E2A2E3AD3A100C3C358 /* Debug */,
 				C3802E2B2E3AD3A100C3C358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3802E8A2E3AF0A000C3C358 /* Build configuration list for PBXNativeTarget "DailyQuotesWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3802E872E3AF0A000C3C358 /* Debug */,
+				C3802E882E3AF0A000C3C358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

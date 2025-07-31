@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 struct CategoryView: View {
     @Binding var selectedTab: Int
@@ -34,6 +35,13 @@ struct CategoryView: View {
                         .contentShape(Rectangle()) // Make whole row tappable
                         .onTapGesture {
                             selectedCategory = key
+                            UserDefaults(suiteName: "group.com.DailyQuotes.shared")?.set(key, forKey: "selectedCategory")
+                            print("Saved category to shared defaults: \(key)")
+
+                            DispatchQueue.main.async {
+                                    WidgetCenter.shared.reloadAllTimelines()
+                                }
+
                             selectedTab = 1
                         }
                     }
