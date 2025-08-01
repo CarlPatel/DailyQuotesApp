@@ -14,9 +14,7 @@ struct QuoteView: View {
     var body: some View {
         VStack(spacing: 24) {
             
-            Spacer()
-            Spacer()
-            Spacer()
+        
 
             Text("“\(quote.text)”")
                 .font(.title)
@@ -24,7 +22,6 @@ struct QuoteView: View {
                 .multilineTextAlignment(.center)
                 .lineSpacing(6)
                 .padding(.horizontal)
-                .frame(maxWidth: .infinity)
                 .lineLimit(nil)
                 .minimumScaleFactor(0.5)
                 .frame(maxWidth: 600)
@@ -38,7 +35,7 @@ struct QuoteView: View {
                 .padding(.horizontal)
                 .frame(maxWidth: 500)
             
-            Spacer()
+
             
             Button(action: {
                 dataManager.toggleFavorite(for: quote)
@@ -52,9 +49,9 @@ struct QuoteView: View {
                 .background(Color(UIColor.systemGray6))
                 .cornerRadius(10)
             }
+            .padding(.top, 24)
             
-            Spacer()
-            Spacer()
+        
             
         }
         .padding()

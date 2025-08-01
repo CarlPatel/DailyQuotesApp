@@ -60,6 +60,7 @@ struct DailyQuotesWidgetEntryView: View {
 
     var body: some View {
         let quoteFont: Font
+        let quoteScaleFactor: CGFloat
         let authorFont: Font
         let verticalSpacing: CGFloat
         let paddingAmount: CGFloat
@@ -69,6 +70,7 @@ struct DailyQuotesWidgetEntryView: View {
         switch family {
         case .systemSmall:
             quoteFont = .system(size: 16, weight: .semibold)
+            quoteScaleFactor = 0.7
             authorFont = .system(size: 12)
             verticalSpacing = 4
             paddingAmount = 4
@@ -77,6 +79,7 @@ struct DailyQuotesWidgetEntryView: View {
 
         case .systemMedium:
             quoteFont = .system(size: 20, weight: .semibold)
+            quoteScaleFactor = 0.6
             authorFont = .system(size: 14)
             verticalSpacing = 8
             paddingAmount = 8
@@ -85,6 +88,7 @@ struct DailyQuotesWidgetEntryView: View {
 
         case .systemLarge:
             quoteFont = .system(size: 26, weight: .semibold)
+            quoteScaleFactor = 0.5
             authorFont = .system(size: 16)
             verticalSpacing = 12
             paddingAmount = 12
@@ -93,6 +97,7 @@ struct DailyQuotesWidgetEntryView: View {
 
         default:
             quoteFont = .headline
+            quoteScaleFactor = 0.5
             authorFont = .caption
             verticalSpacing = 8
             paddingAmount = 8
@@ -105,7 +110,7 @@ struct DailyQuotesWidgetEntryView: View {
                 .font(quoteFont)
                 .lineLimit(nil)
                 .truncationMode(.tail)
-                .minimumScaleFactor(0.5)
+                .minimumScaleFactor(quoteScaleFactor)
                 .frame(maxWidth: .infinity, alignment: quoteAlignment)
                 .multilineTextAlignment(quoteTextAlignment)
 
@@ -113,7 +118,7 @@ struct DailyQuotesWidgetEntryView: View {
                 .font(authorFont)
                 .foregroundColor(.secondary)
                 .frame(maxWidth: .infinity, alignment: .trailing)
-                .minimumScaleFactor(0.5)
+                .minimumScaleFactor(0.75)
         }
         .padding(paddingAmount)
         .widgetURL(URL(string: "dailyquotes://today"))
