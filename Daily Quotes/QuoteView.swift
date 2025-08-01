@@ -55,6 +55,14 @@ struct QuoteView: View {
             
         }
         .padding()
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                ShareLink(item: "“\(quote.text)”\n– \(quote.author)") {
+                    Image(systemName: "square.and.arrow.up")
+                        .accessibilityLabel("Share Text")
+                }
+            }
+        }
     }
 }
 

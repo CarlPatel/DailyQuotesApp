@@ -23,7 +23,7 @@ struct CategoryView: View {
                             Text(name)
                             Spacer()
                             if selectedCategory == key {
-                                Image(systemName: "checkmark")
+                                Image(systemName: "star.fill")
                                     .foregroundColor(.blue)
                             }
                         }

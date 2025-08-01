@@ -21,6 +21,15 @@ struct TodayView: View {
                 }
             }
             .navigationTitle("Quote of the Day")
+            .toolbar {
+                if let quote = dataManager.quoteOfTheDay {
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        Text(quote.categoryDisplayName)
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }
+                }
+            }
         }
     }
 }
