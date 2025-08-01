@@ -10,11 +10,6 @@ import WidgetKit
 
 struct CategoryView: View {
     @Binding var selectedTab: Int
-    let categories: [String: String] = [
-        "simpsons": "The Simpsons",
-        "one_tree_hill": "One Tree Hill",
-        "gilmore_girls": "Gilmore Girls"
-    ]
 
     // Persist selected category using AppStorage so it’s accessible app-wide
     @AppStorage("selectedCategory") private var selectedCategory: String = "simpsons"
@@ -22,7 +17,7 @@ struct CategoryView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(categories.sorted(by: { $0.value < $1.value }), id: \.key) { key, name in
+                ForEach(Quote.categories.sorted(by: { $0.value < $1.value }), id: \.key) { key, name in
                     NavigationLink(destination: QuoteListView(categoryKey: key, categoryName: name)) {
                         HStack {
                             Text(name)

@@ -16,11 +16,7 @@ struct FavoritesView: View {
         NavigationView {
             List {
                 ForEach(displayedFavorites) { quote in
-                    NavigationLink(destination: QuoteView(
-                        quote: quote,
-                        isFavorited: .constant(dataManager.favoriteQuoteIDs.contains(quote.id)),
-                        showToolbar: true
-                    )) {
+                    NavigationLink(destination: QuoteView(quote: quote)) {
                         VStack(alignment: .leading, spacing: 6) {
                             Text("“\(quote.text)”")
                                 .font(.body)

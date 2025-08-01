@@ -68,24 +68,24 @@ struct DailyQuotesWidgetEntryView: View {
 
         switch family {
         case .systemSmall:
-            quoteFont = .system(size: 14, weight: .semibold)
-            authorFont = .system(size: 10)
+            quoteFont = .system(size: 16, weight: .semibold)
+            authorFont = .system(size: 12)
             verticalSpacing = 4
             paddingAmount = 4
             quoteAlignment = .leading
             quoteTextAlignment = .leading
 
         case .systemMedium:
-            quoteFont = .system(size: 18, weight: .semibold)
-            authorFont = .system(size: 12)
+            quoteFont = .system(size: 20, weight: .semibold)
+            authorFont = .system(size: 14)
             verticalSpacing = 8
             paddingAmount = 8
             quoteAlignment = .leading
             quoteTextAlignment = .leading
 
         case .systemLarge:
-            quoteFont = .system(size: 24, weight: .semibold)
-            authorFont = .system(size: 14)
+            quoteFont = .system(size: 26, weight: .semibold)
+            authorFont = .system(size: 16)
             verticalSpacing = 12
             paddingAmount = 12
             quoteAlignment = .center
@@ -117,6 +117,7 @@ struct DailyQuotesWidgetEntryView: View {
         }
         .padding(paddingAmount)
         .widgetURL(URL(string: "dailyquotes://today"))
+        .containerBackground(.fill.tertiary, for: .widget)
     }
 }
 

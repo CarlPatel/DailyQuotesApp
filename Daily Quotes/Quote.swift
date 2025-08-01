@@ -18,11 +18,12 @@ struct Quote: Identifiable, Codable, Equatable, Hashable {
     }
 
     var categoryDisplayName: String {
-        switch category {
-        case "simpsons": return "The Simpsons"
-        case "one_tree_hill": return "One Tree Hill"
-        case "gilmore_girls": return "Gilmore Girls"
-        default: return category.capitalized
-        }
+        Quote.categories[category] ?? category.capitalized
     }
+
+    static let categories: [String: String] = [
+        "simpsons": "The Simpsons",
+        "one_tree_hill": "One Tree Hill",
+        "gilmore_girls": "Gilmore Girls"
+    ]
 }

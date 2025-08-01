@@ -15,10 +15,7 @@ struct TodayView: View {
         NavigationView {
             VStack {
                 if let quote = dataManager.quoteOfTheDay {
-                    QuoteView(
-                        quote: quote,
-                        isFavorited: .constant(dataManager.favoriteQuoteIDs.contains(quote.id)),
-                    )
+                    QuoteView(quote: quote)
                 } else {
                     Text("No quotes available for this category.")
                 }

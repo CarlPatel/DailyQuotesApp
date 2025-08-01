@@ -48,10 +48,7 @@ struct ContentView: View {
                 }
             }
             .navigationDestination(for: Quote.self) { quote in
-                QuoteView(
-                    quote: quote,
-                    isFavorited: .constant(dataManager.favoriteQuoteIDs.contains(quote.id))
-                )
+                QuoteView(quote: quote)
             }
         }
     }

@@ -1,15 +1,627 @@
 [
   {
+    "id": "one_tree_hill-1",
+    "text": "The world is full of magic. You just have to believe in it. So make your wish. Do you have it? Good. Now believe in it with all your heart.",
+    "author": "Nathan Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-2",
+    "text": "There's a day when you realize that you're not just a survivor, you're a warrior. You're tougher than anything life throws your way.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-3",
+    "text": "The hardest part of saying goodbye is having to do it again every single day.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-4",
+    "text": "I've come to the conclusion that if having things turn out the way you wanted them to is a measure of a successful life, then some would say I'm a failure.",
+    "author": "Coach Whitey Durham",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-5",
+    "text": "Happiness is not a destination. It is a mood, it is not permanent. It comes and goes and if people thought that way then maybe people would find happiness more often.",
+    "author": "Julian Baker",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-6",
+    "text": "At this moment there are 6,470,818,671 people in the world. Some are running scared. Some are coming home. Some tell lies to make it through the day. Others are just now facing the truth. Some are evil men, at war with good. And some are good, struggling with evil. Six billion people in the world. Six billion souls. And sometimes — all you need is one.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-7",
+    "text": "I am who I am. No excuses.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-8",
+    "text": "It's not my intention that one day this scholarship fund will erase the past. But it is my intention that one day it might eclipse it and remind a new generation of sports fans that what you do matters. And how you do it matters.",
+    "author": "Mark Schwahn",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-9",
+    "text": "Have you ever wondered what marks our time here? If one life can really make an impact on the world… or if the choices we make matter? I believe they do. And I believe that one man can change many lives. For better… or worse.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-10",
+    "text": "Don't laugh… but anytime I have a dream about my mom, I like to think it's her way of contacting me from the other side. Like dreams are emails for ghosts, and it's her way of sending me a message.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-11",
+    "text": "Give me regret as long as I can keep the good memories too.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-12",
+    "text": "Most people are stronger than they know. They just forget to believe in it sometimes.",
+    "author": "Keith Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-13",
+    "text": "When you stop fighting, you stop living. We all need that thing that's worth fighting for. Maybe it's a certain someone, or a special place, maybe just an idea. So find your fight, and fight like hell, 'til your battle is won.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-14",
+    "text": "I think we got one life, one chance, and what we do with it is up to us.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-15",
+    "text": "I don't really think people can change, you know, at the end of the day you are who you are and it's probably who you've always been.",
+    "author": "Brook Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-16",
+    "text": "Albert Camus once wrote, 'Blessed are the hearts that can bend; they shall never be broken.' But I wonder if there's no breaking, then there's no healing, and if there's no healing, then there's no learning. And if there's no learning, then there's no struggle. But the struggle is a part of life. So must all hearts be broken?",
+    "author": "Nathan Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-17",
+    "text": "It's not about who I am, OK. It's about who they are. They are people who hate, and they divide, and they feed off of people who don't fight back. Yeah, I could laugh this off, but what about the girl who can't? Who's gonna help her? Silence only makes them stronger.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-18",
+    "text": "People are going to label you. It's how you overcome those labels, that's what matters.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-19",
+    "text": "There is no shame in being afraid. Hell, we're all afraid. What you've got to do is figure out what you're afraid of. Because when you put a face on it, you can beat it. Or better yet, you can use it.",
+    "author": "Coach Whitey Durham",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-20",
+    "text": "When all my dreams come true, the one I want next to me. It's you.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-21",
+    "text": "Truth is still absolute. Believe that. Even when that truth is hard and cold, and more painful than you've ever imagined. And even when truth is more cruel than any lie.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-22",
+    "text": "Sooner or later we all choose a path. Sometimes you never look back, and sometimes life forces you to.",
+    "author": "Dan Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-23",
+    "text": "Life kicks you around sometimes. It scares you and it beats you up. But there's one day when you realize you're not just a survivor, you're a fighter. You're tougher than anything life throws your way. And you are.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-24",
+    "text": "Mama told me that, sometimes people have to cry out all their tears, to make room for a heart full of smiles.",
+    "author": "Jamie Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-25",
+    "text": "That pain in your stomach, that pain in your heart, it goes away. That voice in your head that's saying there's no way out, it's wrong. Would you please, please just believe me? It gets better.",
+    "author": "Kevin Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-26",
+    "text": "I wanted you to fight for me! I wanted you to say there is no one else that you could ever be with and that you would rather be alone than without me. I wanted the Lucas Scott from the beach that night; telling the world that he's the one for me.",
+    "author": "Krissy Bates",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-27",
+    "text": "Do you ever wonder how long it takes to change your life? What measure of time is enough to be life-altering? Is it four years, like high school? One year? An eight-week rock tour? Can your life change in a month, or a week, or a single day? We're always in a hurry to grow up, to go places, to get ahead. But when you're young, one hour can change everything.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-28",
+    "text": "One day, you look at your life, and it has purpose and someone that makes you feel very special and friends. And all the time and pain that it took to get there, it just doesn't matter anymore.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-29",
+    "text": "Happiness is a mood, and it's a condition, not a destination. It's like being tired or hungry, it's not permanent, it comes and goes and that's ok. And I feel like if people thought of it that way, they'd find happiness a lot more often.",
+    "author": "Julian Baker",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-30",
+    "text": "You can choose to blame your circumstances on fate or bad luck or bad choices. Or you can fight back. Things aren't always going to be fair in the real world. That's just the way it is. But for the most part, you get what you give. Rest of your life is being shaped right now. With the dreams you chase, the choices you make, and the person you decide to be. The rest of your life is a long time. And the rest of your life starts right now.",
+    "author": "Haley James",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-31",
+    "text": "It's hard to fight the things we are afraid of. Sometimes we just need a little help.",
+    "author": "Karen Roe",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-32",
+    "text": "The important thing is not to be bitter over life's disappointments. Learn to let go of the past. And recognize that every day won't be sunny, and when you find yourself lost in the darkness and despair, remember it's only in the black of night you see the stars. And those stars will lead you back home.",
+    "author": "Coach Whitey Durham",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-33",
+    "text": "Live the life, live the dream, no fear.",
+    "author": "Quentin Fields",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-34",
+    "text": "Most of our lives are a series of images, they pass us by like towns on a highway. But sometimes a moment stuns us as it happens, and we know that this instant is more than a fleeting image. We know that this moment, every part of it, will live on forever.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-35",
+    "text": "It was a comet. The boy saw the comet, and he felt as though his life had meaning. And when it went away, he waited his entire life for it to come back to him. It was more than just a comet because of what it brought to his life: direction, beauty, meaning. There are many who couldn't understand, and sometimes he walked among them. But even in his darkest hours, he knew in his heart that someday it would return to him, and his world would be whole again… And his belief in God and love and art would be re-awakened in his heart. The boy saw the comet and suddenly his life had meaning.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-36",
+    "text": "I spent a lot of time searching for reasons and answers. But you can't find what's not there.",
+    "author": "Coach Whitey Durham",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-37",
+    "text": "You think you know me, but you don't. And that means you don't know what I can do.",
+    "author": "Brook Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-38",
+    "text": "When your heart breaks, you got to fight like hell to make sure you're still alive. Because you are. And that pain you feel? That's life. The confusion and fear? That's there to remind you, that somewhere out there is something better, and that something is worth fighting for.",
+    "author": "Nathan Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-39",
+    "text": "I know you're searching for things. And I hope with all my heart that you find the answers to your questions. But the answers that you're looking for are closer than you think. They're in your heart. And in the hearts of those who love you.",
+    "author": "Karen Roe",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-40",
+    "text": "We made it, didn't we? Through all the tragedy and jealousy and confusion. We made it.",
+    "author": "Brook Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-41",
+    "text": "I was thinking about the finality of it all — how somebody can leave your world in the blink of an eye and be gone forever. It's too enormous to think about. It's too hard. And then you're just supposed to go on, right, like just deal with it, I mean really you're only supposed to be sad for as long as the flowers last and then, oh, time to go back to telling jokes and reminiscing about the old days.",
+    "author": "Haley James Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-42",
+    "text": "Do not let your fire go out, spark by irreplaceable spark in the hopeless swaps of the not quite, the not yet, and the not at all. Do not let the hero in your soul perish in lonely frustration for the life you deserved and have never been able to reach. The world you desire can be won. It exists. It is real. It is possible. It is yours.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-43",
+    "text": "We're all crazy, some of us just hide it better than others.",
+    "author": "Nathan Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-44",
+    "text": "There are moments in our lives when we find ourselves at a crossroads, afraid, confused, without a roadmap. The choices we make in those moments can define the rest of our days. Of course, when faced with the unknown, most of us prefer to turn around and go back.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-45",
+    "text": "Every song ends — but is that any reason not to enjoy the music?",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-46",
+    "text": "Someone once said; 'It's the good girls who keep diaries. The bad girls never have the time. Me… I just wanna live a life I'm gonna remember. Even if I don't write it down.",
+    "author": "Brook Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-47",
+    "text": "What you do matters. And how you do it matters.",
+    "author": "Marvin Mouth McFadden.",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-48",
+    "text": "So don't be afraid to make mistakes, to stumble and fall, cause most of the time, the greatest rewards come from doing the things that scare you the most. Maybe you'll get everything you wish for. Maybe you'll get more than you ever could have imagined. Who knows where life will take you. The road is long and in the end, the journey is the destination.",
+    "author": "Coach Whitey Durham",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-49",
+    "text": "OK, let me get this straight. You don't have feelings for Lucas anymore, Peyton does, but she's willing to hide those feelings if you asked her to. Sounds like a pretty great friend to me.",
+    "author": "Rachel Gatina",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-50",
+    "text": "Every day we ignore how completely broken this world is and we tell ourselves it's all going to be OK, you're gonna be OK. But it's not OK. And once you know that, there's no going back.",
+    "author": "Haley James Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-51",
+    "text": "OK, guy in need of a clue. Here's one. Women send signals. That was a brush-off. Before you dip into your shallow pool of wit, let me paint us a picture and save us both the trouble. Here's your evening. You are going to slink back off to your buddies, laugh this off, get wasted, go home, and make nice with yourself. But don't be thinking of me because even your fantasy of me isn't interested in you.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-52",
+    "text": "Do you ever wonder if we make the moments in our lives, or if the moments in our lives make us?",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-53",
+    "text": "Does this darkness have a name? This cruelty, this hatred, how did it find us? Did it steal into our lives, or did we seek it out and embrace it? What happened to us that we now send our children into the world like we send young men to war, hoping for their safe return, but knowing that some would be lost along the way. When did we lose our way? Consumed by the shadows. Swallowed whole by the darkness. Does this darkness have a name? Is it your name?",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-54",
+    "text": "First, you're gonna let go. Now we're going to sit, and you are going to cry on my shoulder for as long as you need to.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-55",
+    "text": "That's where they get you… thinking you got a choice. Love finds you, son. You don't find love.",
+    "author": "Old Guy",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-56",
+    "text": "Sometimes pain becomes such a huge part of your life that you expect it to always be there. Because you can't remember a time in your life when it wasn't, but then one day you feel something else. Something that feels wrong, only because it's so unfamiliar. Then, in that moment, you realize you're happy.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-57",
+    "text": "Sometimes people write the things they can't say.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-58",
+    "text": "Make a wish and place it in your heart. Anything you want, everything you want. Do you have it? Good. Now believe it can come true. You never know where the next miracle is gonna come from, the next smile, the next wish come true. But if you believe that it's right around the corner, and you open your heart and mind to the possibility of it, to the certainty of it, you just might get the thing you're wishing for. The world is full of magic. You just have to believe in it. So, make your wish. Do you have it? Good. Now, believe in it with all your heart…",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-59",
+    "text": "We fell in love, and at some point, the people we love forgot to love us back.",
+    "author": "Keith Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-60",
+    "text": "Sometimes my heart aches at how my life turned out… in a good way.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-61",
+    "text": "Happiness comes in many forms — in the company of good friends, in the feeling you get when you make someone else's dream come true, or in the promise of hope renewed. It's OK to let yourself be happy because you never know how fleeting that happiness might be…",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-62",
+    "text": "And until you face all the mistakes you've made, you'll never change.",
+    "author": "Mouth McFadden",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-63",
+    "text": "And once you lose yourself, you have two choices: find the person you used to be or lose that person completely.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-64",
+    "text": "You know, you might wanna take a long hard look in the mirror. And see if the guy staring back at you is the kind of person you want to be.",
+    "author": "Keith Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-65",
+    "text": "Love can be for a boy or a girl or a place or a way of life or even for a family. Where you find it is up to you.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-66",
+    "text": "When life comes rushing at you out of the darkness, who will you choose to face it with? Will it be someone you trust? Will they be wise? And will their love for you help them to guide you to the light, or will they lose their way in the darkness? Will they make noble choices? Or will that person be untested, someone new? Life comes rushing at you from out of the darkness. When it does, is there someone in your life you can count on—someone who will watch over you when you stumble and fall, and in that moment, give you the strengthto face your fears alone?",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-67",
+    "text": "I don't really think people can change, you know, at the end of the day you are who you are and it's probably who you've always been.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-68",
+    "text": "The kind of friendships we used to believe in. I miss that. And I miss you. I guess I just miss all of it.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-69",
+    "text": "My best friend is funny, intelligent, creative, beautiful and successful, and very kind. And she's also impulsive, frustrating, complicated, childish, but I would not have her any other way. And the best part about Brooke Davis is that she always puts friends first, so if you are ever in any kind of trouble, now you know who to call. I can't think of anyone I would rather have watching over you.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-70",
+    "text": "Life is too short to play games. If you love someone and want to be with them, then go get them. Deal with the mess later. You don't know what tomorrow will bring.",
+    "author": "Haley James Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-71",
+    "text": "This is my best friend in the whole wide world. Don't you think she's pretty?",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-72",
+    "text": "You ever heard the expression 'The best things in life are free'? Well, that expression is true.' Every once in a while, people step up they rise above themselves sometimes they surprise you and sometimes they fall short. Life is funny sometimes. It can push pretty hard, but if you look close enough, you can find hope in the words of children, in the bars of the song, and in the eyes of someone you love. And if you're lucky, if you're the luckiest person on this entire planet, the person you love decides to love you back.",
+    "author": "Nathan Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-73",
+    "text": "You ever look a picture of yourself and see a stranger in the background?. It makes you wonder how many strangers have pictures of you. How many moments of other people's life have we been in. Were we a part of someone's life when their dream came true or were we there when their dream died? Did we keep trying to get in? As if we were somehow destined to be there, or did the shot take us by surprise. Just think, you could be a big part of someone else's life, and not even know it.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-74",
+    "text": "I loved it and I was good at it. I mean, you ever have something that you knew that you were better at than almost anybody else?",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-75",
+    "text": "Because it's only when you're tested that you truly discover who you are. And it's only when you're tested that you discover who you can be. The person that you want to be does exist, somewhere on the other side of hard work and faith, and belief and beyond the heartache and fear of what life has.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-76",
+    "text": "It's hard when you miss people. But you know if you miss them, that means you're lucky. It means you had someone special in your life, someone worth missing.",
+    "author": "Nikki Schiefelbein",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-77",
+    "text": "I want to draw something that means something to someone. You know, I want to draw blind faith or a fading summer or just a moment of clarity. It's like when you go and you see a really great band live for the first time, you know, and nobody's saying it but everybody's thinking it: 'We have something to believe in again.' I want to draw that feeling.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-78",
+    "text": "Sometimes I think we waste our words and we waste our moments, and we don't take the time to say the things that are in our hearts when we have the chance.",
+    "author": "Clay Evans",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-79",
+    "text": "You're my best friend, and I would never cut you out for a guy. OK? No matter who he is. Or how happy he makes me.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-80",
+    "text": "Imagine a future moment in your life where all your dreams come true. You know it's the greatest moment of your life and you get to experience it with one person. Who's standing next to you?",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-81",
+    "text": "One day you're 17 and planning for someday. And then quietly and without you ever really noticing, someday is today. And that someday is yesterday. And this is your life.",
+    "author": "Nathan Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-82",
+    "text": "Yes, losing your heart's desire is tragic, but gaining your heart's desire? It's all you can hope for. This year I wished for love… to immerse myself in someone else and to wake a heart long afraid to feel. My wish was granted and if having that is tragic then give me tragedy because I wouldn't give it back for the world.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-83",
+    "text": "OK, then let me ask you something. What is gonna make you happy? Is it how you look? Or the car you drive or the people you know? Is it money or celebrity or power or accomplishments? Because I have all those things and I don't think it's enough.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-84",
+    "text": "I believe in true love. I believe in love at first sight. I believe love conquers all. And that doesn't mean there's not gonna be hard days or difficult things to deal with, because there will be. But finding that person who does it for you and knowing that person loves you back it just makes everything so much easier.",
+    "author": "Haley James Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-85",
+    "text": "Every song has a CODA, a final movement. Whether it fades out or crashes away, every song ends. Is that any reason not to enjoy the music? The truth is, there is nothing to be afraid of. It's just life.",
+    "author": "Ellie Harp",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-86",
+    "text": "Death is not the greatest loss in life. The greatest loss is what dies inside of us while we live.",
+    "author": "Haley James Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-87",
+    "text": "You don't get to have me, not my body, and sure as hell, not my heart.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-88",
+    "text": "We're young, we're fine… let's do some damage.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-89",
+    "text": "Love is a wonderful thing. And it doesn't knock much, so when it does, make sure to open the door.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-90",
+    "text": "You have one chance, one life. And what you do with that is up to you.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-91",
+    "text": "There's no shame in being afraid. Hell, we're all afraid. What you gotta do is figure out what you're afraid of because when you put a face on it, you can beat it. Better yet, you can use it.",
+    "author": "Whitey Durham",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-92",
+    "text": "What's worse, not getting everything you wished for or getting it all and finding out it's not enough?",
+    "author": "Haley James Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-93",
+    "text": "Some people believe that ravens guide travelers to their destinations. Others believe that the sight of a solitary raven is considered good luck, while more than one raven together predicts trouble ahead.",
+    "author": "Lucas Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-94",
+    "text": "I gave you my heart. That's all that I can give. And if that's not enough for you, then I'm not enough for you.",
+    "author": "Haley James Scott",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-95",
+    "text": "What's more important? What we become or how we become it?",
+    "author": "Lucas Scott.",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-96",
+    "text": "The truth is, I don't really like to think about college 'cause that means high school's over. After graduation, everyone will probably go play basketball, or sing, or start record labels. And I'll have to start all over — alone.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-97",
+    "text": "Either you say too much or you don't say enough, and then they're gone.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-98",
+    "text": "It feels just like I dreamed it would.",
+    "author": "Peyton Sawyer",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-99",
+    "text": "Live life for the moment because everything else is uncertain. Take advantage of what is right in front of you.",
+    "author": "Rachel Gatina",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-100",
+    "text": "There's nothing wrong with fairy tales. Everyone ends up happily ever after.",
+    "author": "Ellie Harp",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-101",
+    "text": "I suggest you leave unless you want your next period to come out of your nose.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-102",
+    "text": "I'd rather lick a puss-infected wound than ever go on a date with you!",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
+    "id": "one_tree_hill-103",
+    "text": "Here's my philosophy on dating. It's important to have somebody that can make you laugh, somebody you can trust, somebody that, y'know, turns you on. And it's really important that these three people don't know each other.",
+    "author": "Brooke Davis",
+    "category": "one_tree_hill"
+  },
+  {
     "id": "simpsons-1",
     "text": "Just because I don’t care doesn’t mean I don’t understand.",
     "author": "Homer Simpson",
     "category": "simpsons"
-  },
-  {
-    "id": "one_tree_hill-2",
-    "text": "At this moment, there are 6,470,818,671 people in the world... and sometimes all you need is one.",
-    "author": "Peyton Sawyer",
-    "category": "one_tree_hill"
   },
   {
     "id": "gilmore_girls-3",

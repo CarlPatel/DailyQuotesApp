@@ -9,8 +9,6 @@ import SwiftUI
 
 struct QuoteView: View {
     let quote: Quote
-    @Binding var isFavorited: Bool
-    var showToolbar: Bool = false
     @EnvironmentObject var dataManager: DataManager
 
     var body: some View {
@@ -54,8 +52,10 @@ struct QuoteView: View {
                 .background(Color(UIColor.systemGray6))
                 .cornerRadius(10)
             }
+            
             Spacer()
             Spacer()
+            
         }
         .padding()
     }
@@ -64,8 +64,7 @@ struct QuoteView: View {
 struct QuoteView_Previews: PreviewProvider {
     static var previews: some View {
         QuoteView(
-            quote: Quote(id: "wild-1", text: "Be yourself; everyone else is already taken.", author: "Oscar Wilde", category: "inspiration"),
-            isFavorited: .constant(false)
+            quote: Quote(id: "wild-1", text: "When life comes rushing at you out of the darkness, who will you choose to face it with? Will it be someone you trust? Will they be wise? And will their love for you help them to guide you to the light, or will they lose their way in the darkness? Will they make noble choices? Or will that person be untested, someone new? Life comes rushing at you from out of the darkness. When it does, is there someone in your life you can count on—someone who will watch over you when you stumble and fall, and in that moment,give you the strengthto face your fears alone?", author: "Oscar Wilde", category: "inspiration")
         )
         .environmentObject(DataManager())
     }

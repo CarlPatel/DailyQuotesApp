@@ -4,6 +4,7 @@
 //
 //  Created by Carl Patel on 7/31/25.
 //
+
 import SwiftUI
 import WidgetKit
 
@@ -16,15 +17,17 @@ struct QuoteListView: View {
     var body: some View {
         List {
             ForEach(dataManager.allQuotes.filter { $0.category == categoryKey }) { quote in
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("“\(quote.text)”")
-                        .font(.body)
-                        .fontWeight(.medium)
-                    Text("- \(quote.author)")
-                        .font(.subheadline)
-                        .foregroundColor(.secondary)
+                NavigationLink(destination: QuoteView(quote: quote)) {
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("“\(quote.text)”")
+                            .font(.body)
+                            .fixedSize(horizontal: false, vertical: true)
+                        Text("- \(quote.author)")
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
+                    }
+                    .padding(.vertical, 4)
                 }
-                .padding(.vertical, 8)
             }
         }
         .navigationTitle(categoryName)
