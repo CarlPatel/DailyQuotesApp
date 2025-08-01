@@ -11,8 +11,7 @@ import WidgetKit
 struct CategoryView: View {
     @Binding var selectedTab: Int
 
-    // Persist selected category using AppStorage so it’s accessible app-wide
-    @AppStorage("selectedCategory") private var selectedCategory: String = "simpsons"
+    @AppStorage("selectedCategory") private var selectedCategory: String = ""
 
     var body: some View {
         NavigationView {

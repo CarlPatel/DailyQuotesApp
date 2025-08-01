@@ -12,7 +12,7 @@ class DataManager: ObservableObject {
     @Published var allQuotes: [Quote] = []
     
     @AppStorage("favoriteQuoteIDs") private var favoriteQuoteIDsRaw: String = "[]"
-    @AppStorage("selectedCategory") private var selectedCategory: String = "simpsons"
+    @AppStorage("selectedCategory") private var selectedCategory: String = ""
 
     var quoteOfTheDay: Quote? {
         let quotesInCategory = allQuotes.filter { $0.category == selectedCategory }

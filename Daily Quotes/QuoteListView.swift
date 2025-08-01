@@ -12,7 +12,7 @@ struct QuoteListView: View {
     let categoryKey: String
     let categoryName: String
     @EnvironmentObject var dataManager: DataManager
-    @AppStorage("selectedCategory") private var selectedCategory: String = "simpsons"
+    @AppStorage("selectedCategory") private var selectedCategory: String = ""
     @State private var searchText: String = ""
 
     var filteredQuotes: [Quote] {
@@ -93,7 +93,6 @@ struct QuoteListView: View {
                 Button(action: {
                     selectedCategory = categoryKey
                     UserDefaults(suiteName: "group.com.DailyQuotes.shared")?.set(categoryKey, forKey: "selectedCategory")
-                    print("Saved category to shared defaults: \(categoryKey)")
 
                     DispatchQueue.main.async {
                         WidgetCenter.shared.reloadAllTimelines()

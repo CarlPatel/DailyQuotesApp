@@ -35,8 +35,7 @@ struct QuoteProvider: TimelineProvider {
             return Quote(id: "fallback", text: "Stay curious.", author: "Widget", category: "default")
         }
 
-        let selectedCategory = UserDefaults(suiteName: "group.com.DailyQuotes.shared")?.string(forKey: "selectedCategory") ?? "simpsons"
-        print(selectedCategory)
+        let selectedCategory = UserDefaults(suiteName: "group.com.DailyQuotes.shared")?.string(forKey: "selectedCategory")
 
         let quotesInCategory = quotes.filter { $0.category == selectedCategory }
         guard !quotesInCategory.isEmpty else {
